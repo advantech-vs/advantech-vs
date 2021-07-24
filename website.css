@@ -183,8 +183,18 @@ h1 {
 }
 
 h3 
-{text-align: center;}
+{
+  text-align: center;
+  color: #00008B; 
+  font-family: Calibri, sans-serif;
+    
+}
 
 h4 
-{text-align: left;}
+{
+text-align: left;
+font-family: Calibri, sans-serif;
+
+}
+
 
