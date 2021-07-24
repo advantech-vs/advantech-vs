@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8">		
-		<title></title>
-		<meta name="description" content="">
+ <head>
+ <script>
+ function disableClick(){
+ document.onclick=function(event){
+ if (event.button == 2) {
+ alert('Right Click Message');
+ return false;
+ }
+ }
+ }
+ </script>
+
+
 		<link rel="stylesheet" href="./website.css">
 	</head>
 
-	<body>
+ <body onLoad="disableClick()">
 		<img src="background.jpg" width="100%" height="100%"  >
 <!--#this is where you place the contents of your web page-->
 <a class="hideDisplaya" href="cdc.html">
