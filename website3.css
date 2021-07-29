@@ -157,20 +157,10 @@ a.hideDisplayd:hover span.showDisplayOnHover{
 }
 
 h3 
-{
-  text-align: center;
-  color: #00008B; 
-  font-family: Calibri, sans-serif;
-    
-}
+{text-align: center;}
 
 h4 
-{
-text-align: left;
-font-family: Calibri, sans-serif;
-
-}
-
+{text-align: left;}
 
 span.showBodyOfDisplayOnHover {
   font-size: 16px; 
